@@ -1,0 +1,63 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Goal</title>
+	<img src="C:\Users\binod\Downloads/Goal.JPG"
+	alt="Goal" width="60%" height="40%"
+	border="h1">
+	<style>
+
+		h1{
+			color: RED;
+			text-align: center;
+			background: greenyellow;
+			font: 100;
+		}
+		h2{
+			color:green;
+			text-align: center;
+			background:gray;
+		}
+div{ 
+color:yellow;
+text-align:center; 
+background: gray;}
+
+	</style>
+</head>
+<body>
+	<h1>reality of life</h1>
+	<h2>way of leaving</h2>
+	<div>in search of way of living from our ansector
+<ul>
+	<li>Sleeping in doorways</li>
+	<li>begging for food and money</li>
+</ul>
+	</div>
+	<p> A goal is an objective or target that someone is trying to reach or achieve. Goal is also the end point of a race or something that a player is trying to put an object into as part of a game. Goal has other senses as a noun. A goal is an aim or objective that you work toward with effort and determination.§copy;</p>
+
+	<img src="C:\Users\binod\Downloads/reminder.JPG"
+	alt="reminder"
+	width="60%"
+	height="40%">
+	<p>Luck is great, but life is meant to be experienced. Sometimes the only way out of stress is through it; face struggle to overcome challenges in life. Many times battle happens to help teach us a lesson. We can either learn from that lesson or deny it.From an evolutionary perspective, the human mind's primary goal is to keep you safe.<br> Sometimes this leads to self-sabotage as it's just easier to stay in your comfort zone and avoid risk. However, great things never come from mediocrity. Quit settling for average and strive for extraordinary. 
+
+	</p>
+	<h3>messi</h3>
+	<P>Lionel Andrés Messi is an Argentine professional footballer who plays as a forward for Ligue 1 club Paris Saint-Germain and captains the Argentina national team.<P>
+	
+	<img src="C:\Users\binod\Downloadsloads/messi.JPG"
+	alt="messi"
+	width="45%"
+	height="80%"
+	class="center">
+
+
+</body>
+</body>
+
+
+</html>
