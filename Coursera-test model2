@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Heading elements</title>
+</head>
+<body>
+<header>
+	Header element some header information goes here.usually consist of company logo some tag line etc sometimes,navigation is contained in the header as well.
+	<nav>nav (short for navigation) usually it includes link from different parts of the websites</nav>
+</header>
+<h1>main heading of the page site</h1>
+<section>
+	section A
+	<article>article 1</article>
+	<article>article 2</article>
+	<article>article 3</article>
+</section>
+<section>
+	section B
+	<article>article 4</article>
+	<article>article 5</article>
+	<article>article 6</article>
+	<div>regular div element</div>
+</section>
+<aside>
+	Aside-some information that relates to the main topic i.e relates posts
+</aside>
+<footer>
+	JHU copyright 2015
+</footer>
+</body>
+</html>
+
+
+
+
+
