@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .menu-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .category-buttons {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .category-button {
+            display: inline-block;
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .category-button:hover {
+            background-color: #555;
+        }
+
+        .menu-items {
+            display: none;
+        }
+
+        .active {
+            display: block;
+        }
+
+        .menu-item {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 10px 0;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Restaurant Menu</h1>
+    </header>
+    <div class="menu-container">
+        <div class="category-buttons">
+            <button class="category-button" onclick="showCategory('dinner')">Dinner</button>
+            <button class="category-button" onclick="showCategory('lunch')">Lunch</button>
+            <button class="category-button" onclick="showCategory('sushi')">Sushi</button>
+        </div>
+
+        <div class="menu-items" id="dinner">
+            <div class="menu-item">
+                <h3>Dinner Item 1</h3>
+                <p>Description of dinner item 1.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Dinner Item 2</h3>
+                <p>Description of dinner item 2.</p>
+            </div>
+        </div>
+
+        <div class="menu-items" id="lunch">
+            <div class="menu-item">
+                <h3>Lunch Item 1</h3>
+                <p>Description of lunch item 1.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Lunch Item 2</h3>
+                <p>Description of lunch item 2.</p>
+            </div>
+        </div>
+
+        <div class="menu-items" id="sushi">
+            <div class="menu-item">
+                <h3>Sushi Roll 1</h3>
+                <p>Description of sushi roll 1.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Sushi Roll 2</h3>
+                <p>Description of sushi roll 2.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showCategory(category) {
+            // Hide all menu items
+            let menuItems = document.querySelectorAll('.menu-items');
+            for (let i = 0; i < menuItems.length; i++) {
+                menuItems[i].style.display = 'none';
+            }
+
+            // Show the selected category
+            document.getElementById(category).style.display = 'block';
+        }
+    </script>
+</body>
+</html>
